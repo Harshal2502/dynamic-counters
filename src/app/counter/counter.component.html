@@ -1,0 +1,7 @@
+<div class="counter">
+    <span class="counter-name">Counter {{ counterNumber }}</span>
+    <button *ngIf="flag" (click)="decrement()">-</button>
+    <span class="counter-value">{{ counterValue }}</span>
+    <button *ngIf="flag" (click)="increment()">+</button>
+  </div>
+  

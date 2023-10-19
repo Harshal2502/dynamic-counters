@@ -1,0 +1,7 @@
+<button (click)="toggleCounters()">
+    {{ showCounters ? "Submit" : "Edit" }}
+</button>
+<div *ngFor="let counter of counters; let i = index">
+    <app-counter [counterNumber]="i" [flag]="showCounters"></app-counter>
+</div>
+<button (click)="addCounter()">Add Counter</button>

@@ -1,0 +1,31 @@
+.counter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  width: 20rem;
+}
+
+.counter-name {
+  flex: 1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.counter-value {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+button {
+  font-size: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
